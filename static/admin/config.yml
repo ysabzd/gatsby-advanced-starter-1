@@ -1,5 +1,5 @@
 backend:
-  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  name: git-gateway # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
   branch: master # Branch to update
   repo: ysabzd/backend-CMS # Repo for pushing new commits. Make sure to replace with your repo!
 
@@ -7,7 +7,7 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: blog
+  - name: "blog"
     label: "Post"
     folder: "content"
     create: true
